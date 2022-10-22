@@ -23,9 +23,14 @@ container.appendChild(h_three);
 
 const division = document.createElement('div');
 division.classList.add('content');
-division.textContent = 'This is the glorious text-content!';
 division.style.border = '1px solid black';
 division.style.backgroundColor = 'pink';
 division.style.width = '300px';
 
 container.appendChild(division);
+
+const h_one_div = document.createElement('h1');
+h_one_div.classList.add('h_one_div');
+h_one_div.textContent = "I'm in a div";
+
+division.appendChild(h_one_div);
