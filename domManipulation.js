@@ -34,3 +34,9 @@ h_one_div.classList.add('h_one_div');
 h_one_div.textContent = "I'm in a div";
 
 division.appendChild(h_one_div);
+
+const para_in_div = document.createElement('p');
+para_in_div.classList.add('para_in_div');
+para_in_div.textContent = 'ME TOO';
+
+division.appendChild(para_in_div);
