@@ -27,7 +27,7 @@ division.style.border = '1px solid black';
 division.style.backgroundColor = 'pink';
 division.style.width = '300px';
 
-container.appendChild(division);
+//container.appendChild(division);
 
 const h_one_div = document.createElement('h1');
 h_one_div.classList.add('h_one_div');
@@ -40,3 +40,5 @@ para_in_div.classList.add('para_in_div');
 para_in_div.textContent = 'ME TOO';
 
 division.appendChild(para_in_div);
+
+container.appendChild(division);
