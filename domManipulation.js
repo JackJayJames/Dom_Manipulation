@@ -22,9 +22,10 @@ h_three.style.cssText = 'color: blue';
 container.appendChild(h_three);
 
 const division = document.createElement('div');
-division.classList.add('division');
-division.textContent = 'asdfasdf';
-division.border = '1px solid black';
-division.background.color = 'pink';
+division.classList.add('content');
+division.textContent = 'This is the glorious text-content!';
+division.style.border = '1px solid black';
+division.style.backgroundColor = 'pink';
+division.style.width = '300px';
 
 container.appendChild(division);
